@@ -135,3 +135,16 @@ Feel free to fork and contribute 🚀
 ## 📄 License
 
 Open-source and free to use.
+
+
+## 🧑‍💻 Team Members
+
+Krishika Sinha
+
+Shikha
+
+Ananya Sharma
+
+Diksha Kumari
+
+Taniya
