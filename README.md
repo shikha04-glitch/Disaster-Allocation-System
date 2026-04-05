@@ -1,122 +1,170 @@
-**🌍 Disaster Management & Resource Allocation System**
+# 🌍 Disaster Allocation System
 
-**📌 1. Project Overview**
+A smart disaster management platform that helps authorities efficiently allocate resources during emergencies like floods, earthquakes, and fires. The system uses real-time data, priority-based logic, and location intelligence to ensure fast and effective response.
 
-The Disaster Management System is a web-based application designed to manage disaster-related activities efficiently.
-It helps in:
-Tracking disaster events
-Managing available resources
-Allocating resources to affected areas
-Monitoring delivery status
-This system improves coordination and reduces response time during emergencies.
+---
 
-**🎯 2. Objectives**
+## 🚀 Key Features
 
-Create a centralized disaster management platform
+- 🔐 Admin login for disaster authorities  
+- 🌪️ Disaster creation (type, location, severity)  
+- 📦 Resource management (food, medical kits, rescue teams, vehicles)  
+- 👨‍🚒 Volunteer updates from ground teams  
+- 🧠 Smart resource allocation (priority-based)  
+- 📍 Map-based visualization  
+- 📊 Dashboard with tracking & analytics  
 
-Manage disaster data (type, location, severity)
+---
 
-Track and manage resources
+## 🔁 System Workflow
 
-Allocate resources efficiently
+### STEP 1: Admin Login
+- Authority logs into the system  
+- Creates a disaster event:
+  - Type (Flood, Earthquake, Fire)  
+  - Location  
+  - Severity level  
+👉 System enters **Active Disaster Mode**
 
-Monitor delivery and response
+---
 
-Provide real-time updates
+### STEP 2: Resource Data Upload
+- Admin / NGOs add resources:
+  - Food  
+  - Medical Kits  
+  - Rescue Teams  
+  - Vehicles  
 
-**🚀 3. Features**
+Each resource includes:
+- Quantity  
+- Current location  
+- Availability status  
 
-🔹 **3.1 Disaster Event Management**
+---
 
-Add disaster type, location, severity
+### STEP 3: Ground Team Updates
+- Volunteers update:
+  - Number of affected people  
+  - Urgency level  
+  - Medical requirements  
 
-Display events in table
+👉 Data stored in backend  
 
-Delete events
+---
 
-**🔹** 3.2 Resource Management****
+### STEP 4: Smart Allocation Logic
+- System:
+  - Prioritizes areas (severity + population)  
+  - Finds nearest resources  
+  - Suggests shortest routes  
 
-Add resources (food, medical, etc.)
+📍 Map shows:
+- Affected areas  
+- Resource locations  
+- Delivery paths  
 
-Track quantity and status
+---
 
-Delete resources
+### STEP 5: Monitoring & Tracking
+- Admin dashboard:
+  - Resource movement  
+  - Pending requests  
+  - Completed deliveries  
 
-**🔹 3.3 Allocation Requests**
+📊 Charts:
+- Resource usage  
+- Area-wise distribution  
 
-View resource requests
+---
 
-Approve / Reject requests
+## 🛠️ Tech Stack
 
-**🔹 3.4 Monitoring & Tracking**
+### Frontend
+- HTML  
+- CSS  
+- JavaScript  
+- Map Integration  
 
-Track delivery status
+### Backend
+- FastAPI  
+- Python 3.11  
+- MongoDB  
+- PyMongo  
+- Uvicorn  
+- Swagger UI  
 
-Status flow:
+---
 
-Pending
+## 🧱 Backend Architecture
 
-Arriving Soon
+app/
+│── main.py
+│── database.py
+│
+├── routers/
+│ ├── disaster.py
+│ ├── resource.py
+│ └── allocation.py
+│
+├── models/
+├── schemas/
+└── core/
 
-Delivered
+--- 
 
-Delete tracking data
 
-**🔹 3.5 Data Visualization**
+---
 
-Graphs using Chart.js
+## ⚙️ Installation & Setup
 
-**🔹 3.6 Map Integration**
+### 1. Clone Repository
+git clone https://github.com/your-username/Disaster-Allocation-System.git
 
-Map using Leaflet.js
+cd Disaster-Allocation-System
 
-Shows disaster locations and routes
+---
 
-**🛠️ 4. Technologies Used**
+### 2. Install Dependencies
 
-**🔹 Frontend**
+pip install fastapi uvicorn pymongo
 
-HTML
-CSS
-JavaScript
+---
 
-**🔹 Libraries**
 
-Leaflet.js (Map)
-Chart.js (Graphs)
+### 3. Run Server
 
-**🔹 Storage**
+uvicorn app.main:app --reload
 
-LocalStorage (Browser-based)
+---
 
-**⚙️ 6. How to Run the Project**
 
-Download or clone the project
+### 4. Open API Docs
 
-Open folder in VS Code
+http://127.0.0.1:8000/docs
 
-Open admin-dashboard.html in browser
+---
 
-Use dashboard to:
+## 🧠 Core Concepts
 
-Add disasters
+- Priority-based allocation  
+- Location-based optimization  
+- Real-time data handling  
+- RESTful APIs  
 
-Add resources
+---
 
-Approve requests
+## 📸 Screenshots
 
-Track deliveries
+(Add screenshots here)
 
-Open map.html to view map
+---
 
-**📊 8. Expected Outcomes**
+## 🤝 Contributing
 
-Faster response to disasters
+Feel free to fork and contribute 🚀
 
-Efficient resource allocation
+---
 
-Real-time monitoring
+## 📄 License
 
-Reduced manual work
-
-Better coordination
+Open-source and free to use.
