@@ -100,17 +100,14 @@ Each resource includes:
 app/
 │── main.py
 │── database.py
-│
 ├── routers/
-│ ├── disaster.py
-│ ├── resource.py
-│ └── allocation.py
-│
+│   ├── disaster.py
+│   ├── resource.py
+│   └── allocation.py
 ├── models/
 ├── schemas/
-│
 └── core/
-└── utils.py
+    └── utils.py
 
 ---
 
