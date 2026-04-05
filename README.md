@@ -26,7 +26,6 @@ A smart disaster management platform that helps authorities efficiently allocate
   - Severity level  
 👉 System enters **Active Disaster Mode**
 
----
 
 ### STEP 2: Resource Data Upload
 - Admin / NGOs add resources:
@@ -40,7 +39,6 @@ Each resource includes:
 - Current location  
 - Availability status  
 
----
 
 ### STEP 3: Ground Team Updates
 - Volunteers update:
@@ -50,7 +48,6 @@ Each resource includes:
 
 👉 Data stored in backend  
 
----
 
 ### STEP 4: Smart Allocation Logic
 - System:
@@ -63,7 +60,6 @@ Each resource includes:
 - Resource locations  
 - Delivery paths  
 
----
 
 ### STEP 5: Monitoring & Tracking
 - Admin dashboard:
