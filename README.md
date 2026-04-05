@@ -95,22 +95,6 @@ Each resource includes:
 
 ---
 
-## 🧱 Backend Architecture
-
-app/
-│── main.py
-│── database.py
-├── routers/
-│   ├── disaster.py
-│   ├── resource.py
-│   └── allocation.py
-├── models/
-├── schemas/
-└── core/
-    └── utils.py
-
----
-
 ## ⚙️ Installation & Setup
 
 ### 1. Clone Repository
