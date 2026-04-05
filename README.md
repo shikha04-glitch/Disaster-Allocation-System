@@ -108,10 +108,9 @@ app/
 │
 ├── models/
 ├── schemas/
+│
 └── core/
-
---- 
-
+└── utils.py
 
 ---
 
@@ -122,20 +121,17 @@ git clone https://github.com/your-username/Disaster-Allocation-System.git
 
 cd Disaster-Allocation-System
 
----
 
 ### 2. Install Dependencies
 
 pip install fastapi uvicorn pymongo
 
----
 
 
 ### 3. Run Server
 
 uvicorn app.main:app --reload
 
----
 
 
 ### 4. Open API Docs
@@ -151,19 +147,13 @@ http://127.0.0.1:8000/docs
 - Real-time data handling  
 - RESTful APIs  
 
----
 
-## 📸 Screenshots
-
-(Add screenshots here)
-
----
 
 ## 🤝 Contributing
 
 Feel free to fork and contribute 🚀
 
----
+
 
 ## 📄 License
 
